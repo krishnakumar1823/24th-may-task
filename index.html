@@ -41,13 +41,13 @@
 	<section class="menubar" id="menubar">
 		<div class="row" style="margin-top: 30px;">
 			<ul class="menubar-ul col-10" style="text-align: center;">
-				<li><a href="#Home" style="font-size: 14px;">Home</a></li>
-				<li><a href="#About" style="font-size: 14px;">About</a></li>
-				<li><a href="#Services" style="font-size: 14px;">Services</a></li>
-				<li><a href="#Portfolio" style="font-size: 14px;">Portfolio</a></li>
-				<li><a href="#Team" style="font-size: 14px;">Team</a></li>
-				<li><a href="#Pricing" style="font-size: 14px;">Pricing</a></li> 
-				<li><a href="#Contact" style="font-size: 14px;">Contact</a></li>
+				<li><a onclick="closeNav()" href="#Home" style="font-size: 14px;">Home</a></li>
+				<li><a onclick="closeNav()" href="#About" style="font-size: 14px;">About</a></li>
+				<li><a onclick="closeNav()" href="#Services" style="font-size: 14px;">Services</a></li>
+				<li><a onclick="closeNav()" href="#Portfolio" style="font-size: 14px;">Portfolio</a></li>
+				<li><a onclick="closeNav()" href="#Team" style="font-size: 14px;">Team</a></li>
+				<li><a onclick="closeNav()" href="#Pricing" style="font-size: 14px;">Pricing</a></li> 
+				<li><a onclick="closeNav()" href="#Contact" style="font-size: 14px;">Contact</a></li>
 			</ul>
 
 			<div class="col-1" style="text-align: end;">
@@ -102,7 +102,7 @@
 	<!--section3-->
 	<section class="mt-5" id="About">
 		<div class="container">
-			<div class="bg-color-sec-3">
+			<div class="bg-color-sec-3" style="margin-top: 10px;">
 				<div class="sec3-heading">
 					<h2>ABOUT US</h3>
 				</div>
@@ -179,7 +179,7 @@
 	<!--section4-->
 	<section id="Services">
 		<div class="container">
-			<div class="bg-color-sec-3">
+			<div class="bg-color-sec-3" style="margin-top: 10px;">
 				<div class="sec4-heading">
 					<h2>SERVICES</h2>
 					<p>Magnam dolores commodi suscipit eius consequatur ex aliquid fug</p>
@@ -231,7 +231,7 @@
 	</section>
 	<!--section-4 subdivision-->
 	<section class="mt-5">
-		<div class="container bg-color">
+		<div class="container bg-color" style="margin-top: 10px;">
 			<div class="sec4-sub-parent sec4-sub-parent1">
 				
 				<div class="sec4-sub-child-width-padding col-12 col-md-6 col-lg-6">
@@ -279,7 +279,7 @@
 	<!--section5-->
 	<section class="mt-5">
 		<div class="container">
-			<div class="bg-color-sec-3">
+			<div class="bg-color-sec-3" style="margin-top: 10px;">
 				<div class="sec5-heading">
 					<h2>FEATURES</h2>
 					<p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
@@ -391,7 +391,7 @@
 	<!--section 6-->
 	<section class="mt-5" id="Portfolio">
 		<div class="container">
-			<div class="bg-color-sec-3">
+			<div class="bg-color-sec-3" style="margin-top: 20px;">
 				<div class="sec6-heading">
 					<h2>PORTFOLIO</h2>
 					<p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
@@ -644,7 +644,7 @@
 	<!--section7-->
 	<section class="mt-5 bg-color-sec-7 py-5" id="Team">
 		<div class="container">
-			<div class="sec7-heading">
+			<div class="sec7-heading" style="margin-top: 30px;">
 				<h2>Team</h2>
 				<p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
 			</div>
@@ -721,7 +721,7 @@
 	<!--section8-->
 	<section class="mt-5 py-5" id="Pricing">
 		<div class="container">
-			<div class="sec7-heading">
+			<div class="sec7-heading" style="margin-top: 20px;">
 				<h2>PRICING</h2>
 				<p>Sit sint consectetur velit nemo qui impedit suscipit alias ea</p>
 			</div>
@@ -871,16 +871,16 @@
 						<p class="text-secondary">Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
 					</div>
 					<div class="row">
-						<div class="col-2 col-md-2 col-lg-1 contact-div1-icon">
+						<div class="col-2 col-md-2 col-lg-2 contact-div1-icon">
 							<i class="bi bi-twitter" style="cursor: pointer;"></i>
 						</div>
-						<div class="col-2 col-md-2 col-lg-1 contact-div1-icon">
+						<div class="col-2 col-md-2 col-lg-2 contact-div1-icon">
 							<i class="bi bi-facebook" style="cursor: pointer;"></i>
 						</div>
-						<div class="col-2 col-md-2 col-lg-1 contact-div1-icon">
+						<div class="col-2 col-md-2 col-lg-2 contact-div1-icon">
 							<i class="bi bi-instagram" style="cursor: pointer;"></i>
 						</div>
-						<div class="col-2 col-md-2 col-lg-1 contact-div1-icon">
+						<div class="col-2 col-md-2 col-lg-2 contact-div1-icon">
 							<i class="bi bi-linkedin" style="cursor: pointer;"></i>
 						</div>
 					</div>
@@ -915,7 +915,7 @@
 					</div>
 				</div>
 
-				<form class="col-12 col-md-6 col-lg-5 px-4 contact-form text-center mt-3">
+				<form class="col-12 col-md-12 col-lg-5 px-4 contact-form text-center">
 					<input type="text" placeholder="Your Name">
 					<input type="email" placeholder="Your Email">
 					<input type="text" placeholder="Subject">

@@ -4,6 +4,9 @@
 	box-sizing:border-box;
 }
 
+#Home,#About,#Services,#Portfolio,#Team,#Pricing{
+	padding-top: 60px;
+}
 
 /* menubar */
 .sec1-menubar{
@@ -183,7 +186,7 @@
 .sec3-heading h2::before{
 	content:"";
 	position:absolute;
-	bottom:15px;
+	bottom:13px;
 	left:-60px;
 	height:2px;
 	width:55px;
@@ -192,7 +195,7 @@
 .sec3-heading h2::after{
 	content:"";
 	position:absolute;
-	bottom:15px;
+	bottom:13px;
 	right:-60px;
 	height:2px;
 	width:55px;
@@ -248,12 +251,6 @@
 	display:flex;
 	flex-wrap:wrap;
 }
-.icons-1-sec3-child1{
-	padding-top:20px;
-	width:50%;
-	display:flex;
-	flex-wrap:wrap;
-}
 .icon-width{
 	width:20%;
 	font-size:40px;
@@ -283,7 +280,7 @@
 .sec4-heading h2::before{
 	content:"";
 	position:absolute;
-	bottom:15px;
+	bottom:13px;
 	left:-60px;
 	height:2px;
 	width:55px;
@@ -292,7 +289,7 @@
 .sec4-heading h2::after{
 	content:"";
 	position:absolute;
-	bottom:15px;
+	bottom:13px;
 	right:-60px;
 	height:2px;
 	width:55px;
@@ -484,7 +481,7 @@
 .sec5-heading h2::before{
 	content:"";
 	position:absolute;
-	bottom:15px;
+	bottom:13px;
 	left:-60px;
 	height:2px;
 	width:55px;
@@ -493,7 +490,7 @@
 .sec5-heading h2::after{
 	content:"";
 	position:absolute;
-	bottom:15px;
+	bottom:13px;
 	right:-60px;
 	height:2px;
 	width:55px;
@@ -542,7 +539,7 @@
 .sec6-heading h2::before{
 	content:"";
 	position:absolute;
-	bottom:15px;
+	bottom:13px;
 	left:-60px;
 	height:2px;
 	width:55px;
@@ -551,7 +548,7 @@
 .sec6-heading h2::after{
 	content:"";
 	position:absolute;
-	bottom:15px;
+	bottom:13px;
 	right:-60px;
 	height:2px;
 	width:55px;
@@ -672,7 +669,7 @@
 .sec7-heading h2::before{
 	content:"";
 	position:absolute;
-	bottom:15px;
+	bottom:13px;
 	left:-60px;
 	height:2px;
 	width:55px;
@@ -681,7 +678,7 @@
 .sec7-heading h2::after{
 	content:"";
 	position:absolute;
-	bottom:15px;
+	bottom:13px;
 	right:-60px;
 	height:2px;
 	width:55px;
